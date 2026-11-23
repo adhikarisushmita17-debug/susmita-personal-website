@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Susmita Adhikari — student, hospitality professional and aspiring business leader.">
+  <meta name="theme-color" content="#faf8f4">
+  <title>Susmita Adhikari | Personal Portfolio</title>
+  <style>
+    :root{--ink:#252923;--muted:#687067;--paper:#faf8f4;--white:#fff;--sage:#e4e9df;--green:#3d5948;--line:#e8e5dd;--sand:#f0eadf;--max:1080px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}
+    body{margin:0;color:var(--ink);background:var(--paper);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.7}
+    a{color:inherit;text-decoration:none}.wrap{width:min(var(--max),calc(100% - 42px));margin:auto}
+    header{position:sticky;top:0;z-index:5;background:rgba(250,248,244,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800;letter-spacing:.06em;font-size:.9rem}
+    .navlinks{display:flex;gap:27px;color:var(--muted);font-size:.9rem}.navlinks a:hover{color:var(--green)}
+    .menu{display:none;border:1px solid var(--line);background:white;border-radius:10px;padding:8px 12px}
+    .hero{padding:105px 0 90px}.eyebrow,.kicker{color:var(--green);text-transform:uppercase;letter-spacing:.16em;font-size:.73rem;font-weight:800}
+    h1{font:500 clamp(3.2rem,8vw,6.3rem)/.99 Georgia,serif;letter-spacing:-.045em;margin:20px 0;max-width:850px}
+    .hero p{color:var(--muted);font-size:1.1rem;max-width:660px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin-top:30px}
+    .btn{display:inline-flex;padding:12px 20px;border-radius:999px;border:1px solid var(--green);font-size:.9rem;font-weight:700}
+    .primary{background:var(--green);color:white}.secondary{color:var(--green)}
+    .quote{background:var(--sage);padding:25px 0}.quote p{margin:0;font:1.45rem Georgia,serif;max-width:850px}
+    section{padding:82px 0}.head{display:grid;grid-template-columns:175px 1fr;gap:28px;margin-bottom:34px}
+    h2{font:500 clamp(2.2rem,4vw,3.3rem)/1.08 Georgia,serif;letter-spacing:-.025em;margin:0}
+    .copy{color:var(--muted);max-width:730px;margin:17px 0 0}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:start}
+    .panel{background:var(--sand);padding:28px;border-radius:18px}.panel h3,.card h3{font:500 1.45rem Georgia,serif;margin:0 0 10px}
+    .panel p,.card p,.timeline p{color:var(--muted);margin:0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .card{background:white;border:1px solid var(--line);border-radius:17px;padding:24px;min-height:175px}
+    .num{color:var(--green);font-size:.75rem;font-weight:800;letter-spacing:.12em;display:block;margin-bottom:14px}
+    .timeline{border-top:1px solid var(--line)}.item{display:grid;grid-template-columns:155px 1fr;gap:24px;padding:23px 0;border-bottom:1px solid var(--line)}
+    .item small{color:var(--green);font-weight:800;text-transform:uppercase;letter-spacing:.07em}.item h3{margin:0 0 5px;font-size:1.05rem}
+    .tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:22px}.tag{border:1px solid #d9ded7;background:white;padding:7px 12px;border-radius:999px;color:#48554c;font-size:.84rem}
+    .contact{background:#293f33;color:white}.contact .kicker{color:#c5d7c8}.contact .copy{color:#d3ddd5}.contact .btn{background:white;color:#293f33;border-color:white}
+    footer{padding:24px 0;color:var(--muted);font-size:.82rem}footer .wrap{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:760px){.navlinks{display:none;position:absolute;top:71px;left:0;right:0;padding:20px;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;gap:14px}.navlinks.open{display:flex}.menu{display:block}.hero{padding:76px 0 66px}section{padding:62px 0}.head{grid-template-columns:1fr;gap:10px}.split,.cards{grid-template-columns:1fr}.item{grid-template-columns:1fr;gap:5px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="brand" href="#home">SUSMITA ADHIKARI</a>
+  <button class="menu" aria-label="Toggle navigation" onclick="document.querySelector('.navlinks').classList.toggle('open')">Menu</button>
+  <nav class="navlinks" aria-label="Main navigation">
+    <a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a>
+  </nav>
+</div></header>
+<main>
+  <section class="hero wrap" id="home">
+    <div class="eyebrow">Personal portfolio · Sydney, Australia</div>
+    <h1>Curious mind.<br>Purposeful future.</h1>
+    <p>Hello, I'm Susmita. I'm a Bachelor of Accounting student at Melbourne Institute of Technology, with practical experience in food and beverage services and a growing interest in business, management and entrepreneurship.</p>
+    <div class="actions"><a class="btn primary" href="#about">Get to know me</a><a class="btn secondary" href="#contact">Let's connect</a></div>
+  </section>
+  <div class="quote"><div class="wrap"><p>“Every experience is an opportunity to learn, grow and create something meaningful.”</p></div></div>
+  <section class="wrap" id="about">
+    <div class="head"><div class="kicker">01 / About me</div><div><h2>A little about me.</h2>
+      <p class="copy">I'm a student and an aspiring professional who values continuous learning, independence and practical experience. I enjoy developing new skills, working with people and finding ways to improve how I do things.</p></div></div>
+    <div class="split">
+      <div><h3 style="font:500 1.5rem Georgia,serif;margin:0 0 10px">What motivates me</h3>
+        <p class="copy" style="margin:0">I'm interested in how organisations work, how teams collaborate and how ideas become real outcomes. My long-term interests include business, management, entrepreneurship and continued learning.</p></div>
+      <div class="panel"><h3>My approach</h3><p>Stay curious. Be reliable. Keep improving. Bring care, patience and commitment to every opportunity.</p></div>
+    </div>
+  </section>
+  <section style="background:#f2f1eb" id="experience">
+    <div class="wrap"><div class="head"><div class="kicker">02 / Experience</div><div><h2>Learning through experience.</h2>
+      <p class="copy">My work experience has helped me build practical workplace skills, confidence and an understanding of teamwork and service.</p></div></div>
+      <div class="timeline">
+        <div class="item"><small>May 2025 – Present</small><div><h3>Food & Beverage Attendant</h3><p>Hospitality and food service experience, including working as part of a team, supporting service operations and maintaining a clean and organised work area.</p></div></div>
+        <div class="item"><small>Work experience</small><div><h3>Jema Group</h3><p>Event-based work experience in a team environment, developing reliability, adaptability and practical workplace skills.</p></div></div>
+        <div class="item"><small>Education</small><div><h3>Bachelor of Accounting</h3><p>Melbourne Institute of Technology · Sydney, Australia</p></div></div>
+      </div>
+    </div>
+  </section>
+  <section class="wrap" id="skills">
+    <div class="head"><div class="kicker">03 / Skills & learning</div><div><h2>Skills I'm building.</h2>
+      <p class="copy">I continue to strengthen my professional skills through study, work and practical training.</p>
+      <div class="tags">
+        <span class="tag">Teamwork</span><span class="tag">Communication</span><span class="tag">Adaptability</span><span class="tag">Time management</span><span class="tag">Organisation</span><span class="tag">Food safety awareness</span><span class="tag">Hand hygiene</span><span class="tag">Customer service</span><span class="tag">Continuous learning</span>
+      </div></div></div>
+    <div class="split" style="margin-top:25px">
+      <div class="panel"><h3>Training & certificates</h3><p>Food safety training · National Hand Hygiene Initiative · Hand hygiene and hand dermatitis training · Quality and safety training.</p></div>
+      <div class="panel"><h3>Areas of interest</h3><p>Business and management · Entrepreneurship · Accounting and finance · Research and innovation.</p></div>
+    </div>
+  </section>
+  <section class="contact" id="contact"><div class="wrap">
+    <div class="head"><div class="kicker">04 / Contact</div><div><h2>Let's connect.</h2>
+      <p class="copy">I'm happy to connect, learn about opportunities and have meaningful professional conversations.</p>
+      <div class="actions"><a class="btn" href="mailto:YOUR-EMAIL@example.com">Email me</a></div>
+      <p style="font-size:.82rem;color:#d3ddd5;margin-top:12px">Before publishing, replace YOUR-EMAIL@example.com with your professional email address.</p>
+    </div></div>
+  </div></section>
+</main>
+<footer><div class="wrap"><span>© <span id="year"></span> Susmita Adhikari</span><span>Personal portfolio · Made with care</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body></html>
